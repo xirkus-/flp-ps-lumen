@@ -1,6 +1,4 @@
-<?php
-
-namespace App\Events;
+<?php namespace Flpps\Events;
 
 use Illuminate\Queue\SerializesModels;
 

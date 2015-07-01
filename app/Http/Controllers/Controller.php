@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Flpps\Http\Controllers;
 
 use Laravel\Lumen\Routing\Controller as BaseController;
 

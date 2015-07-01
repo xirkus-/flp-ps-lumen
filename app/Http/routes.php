@@ -12,5 +12,15 @@
 */
 
 $app->get('/', function() use ($app) {
-    return 'dude';
+    return 'FLP Product Server';
 });
+
+$app->get('api/products','ProductController@index');
+ 
+$app->get('api/product/{id}','ProductController@getProduct');
+ 
+// $app->post('api/product','Flpps\Http\Controllers\ProductController@saveProduct');
+ 
+// $app->put('api/product/{id}','Flpps\Http\Controllers\ProductController@updateProduct');
+ 
+// $app->delete('api/product/{id}','Flpps\Http\Controllers\ProductController@deleteProduct');

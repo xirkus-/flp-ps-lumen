@@ -1,4 +1,4 @@
-<?php namespace App\Exceptions;
+<?php namespace Flpps\Exceptions;
 
 use Exception;
 use Laravel\Lumen\Exceptions\Handler as ExceptionHandler;

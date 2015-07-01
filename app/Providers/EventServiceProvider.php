@@ -1,6 +1,4 @@
-<?php
-
-namespace App\Providers;
+<?php namespace Flpps\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
@@ -12,8 +10,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'App\Events\SomeEvent' => [
-            'App\Listeners\EventListener',
-        ],
+        // 'Flpps\Events\SomeEvent' => [
+        //     'Flpps\Listeners\EventListener',
+        // ],
     ];
 }

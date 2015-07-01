@@ -1,4 +1,4 @@
-<?php namespace App\Jobs;
+<?php namespace Flpps\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
