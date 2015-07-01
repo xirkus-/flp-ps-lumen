@@ -24,3 +24,12 @@ $app->get('api/product/{id}','ProductController@getProduct');
 // $app->put('api/product/{id}','ProductController@updateProduct');
  
 // $app->delete('api/product/{id}','ProductController@deleteProduct');
+
+
+
+
+// SyslogHandler - TODO needs to move------------------------
+$syslog = new \Monolog\Handler\SyslogHandler('papertrail');
+$formatter = new  \Monolog\Formatter\LineFormatter(null, null, false, true);
+$syslog->setFormatter($formatter);
+Log::pushHandler($syslog);
