@@ -78,8 +78,9 @@ $app->singleton(
 |
 */
 
-// $app->register(App\Providers\AppServiceProvider::class);
-// $app->register(App\Providers\EventServiceProvider::class);
+// $app->register(Flpps\Providers\AppServiceProvider::class);
+// $app->register(Flpps\Providers\EventServiceProvider::class);
+$app->register(Flpps\Providers\CommandServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------

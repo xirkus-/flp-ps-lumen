@@ -19,8 +19,8 @@ $app->get('api/products','ProductController@index');
  
 $app->get('api/product/{id}','ProductController@getProduct');
  
-// $app->post('api/product','Flpps\Http\Controllers\ProductController@saveProduct');
+// $app->post('api/product','ProductController@saveProduct');
  
-// $app->put('api/product/{id}','Flpps\Http\Controllers\ProductController@updateProduct');
+// $app->put('api/product/{id}','ProductController@updateProduct');
  
-// $app->delete('api/product/{id}','Flpps\Http\Controllers\ProductController@deleteProduct');
+// $app->delete('api/product/{id}','ProductController@deleteProduct');
